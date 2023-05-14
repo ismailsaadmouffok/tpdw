@@ -1,0 +1,68 @@
+html{
+    scroll-behavior: smooth;
+
+    }
+ 
+    
+body{
+    background: linear-gradient(to bottom, rgb(102, 117, 148), rgba(43, 79, 236, 0.562));
+}
+
+.contact{
+    
+   
+    height: 95vh;
+}
+
+.contact h3{
+    color: #242735;
+    font-size: 26px;
+    text-align: center;
+    padding-top: 30px;
+}
+.box{
+    border: 2px solid #d9e0e9;
+    border-radius: 20px;
+    width: 500px;
+    padding: 30px 10px;
+    margin: auto;
+    
+}
+.box form{
+    display: flex;
+    flex-direction: column;
+} 
+
+.box form input {
+    margin: 8px;
+    width: 300px;
+    height: 22px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+.box form input:nth-last-child(2) {
+    height: 60px;
+}
+
+.box form input:nth-last-child(1) {
+    width: 160px;
+    height: 40px;
+    border-radius: 12px;
+    margin: auto;
+    background: #868796;
+    color: #fff;
+    box-shadow: 0 0 10px -5px rgb(232, 235, 232);
+    margin-top:16px;
+    
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homme{
+    text-align: center;
+    font-size: 16px;
+    padding: 15px;
+}

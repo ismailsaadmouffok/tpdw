@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+    
+<div class="header">
+
+<div class="logo">
+<h2>mouffok saad ismail</h2>
+</div>
+
+
+<ul class="nav">
+    <li><a href="#homme">Homme</a></li>
+    <li><a href="html3.html" target="_blank">About</a></li>
+    <li><a href="html2.html" target="_blank">Contact</a></li>
+</ul>
+</div>
+
+<div class="home" id="home">
+    <div class="home" id="home">
+        <div class="box">
+            <a href="https://carbuzz.com/cars/bentley/continental-gt" target="_blank">
+                <div class="image-overlay">
+                    <img src="img/img-1.jpg" alt="">
+                    <div class="overlay-text">Bentley Continental GT</div>
+                </div>
+            </a>
+            <a href="https://carbuzz.com/cars/mercedes-benz/amg-e63" target="_blank">
+                <div class="image-overlay">
+                    <img src="img/img-2.jpg" alt="">
+                    <div class="overlay-text">Mercedes-Benz AMG E63</div>
+                </div>
+            </a>
+            <a href="https://carbuzz.com/cars/dodge/challenger" target="_blank">
+                <div class="image-overlay">
+                    <img src="img/img-3.jpg" alt="">
+                    <div class="overlay-text">Dodge Challenger</div>
+                </div>
+            </a>
+            <a href="https://carbuzz.com/cars/bmw/alpina-b7" target="_blank">
+                <div class="image-overlay">
+                    <img src="img/img-4.jpg" alt="">
+                    <div class="overlay-text">BMW Alpina B7</div>
+                </div>
+            </a>
+            <a href="https://carbuzz.com/cars/cadillac/cts-v" target="_blank">
+                <div class="image-overlay">
+                    <img src="img/img-5.jpg" alt="">
+                    <div class="overlay-text">Cadillac CTS-V</div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+
+
+<div class="footer">
+  <footer>
+    
+</footer>
+</div>
+</div>
+<script>
+    const images = document.querySelectorAll(".image-overlay img");
+
+    setInterval(() => {
+        images.forEach(image => {
+            image.classList.toggle("scale-effect");
+        });
+    }, 2000);
+</script>
+</body>
+</html>
